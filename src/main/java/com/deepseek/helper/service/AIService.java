@@ -1,4 +1,4 @@
-package com.deepseek.helper.service.service;
+package com.deepseek.helper.service;
 
 public interface AIService {
     String sendPrompt(String prompt);

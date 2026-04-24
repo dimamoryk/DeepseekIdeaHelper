@@ -1,6 +1,6 @@
-package com.deepseek.helper.service.config;
+package com.deepseek.helper.config;
 
-import com.deepseek.helper.service.exceptions.ApiKeyMissingException;
+import com.deepseek.helper.exceptions.ApiKeyMissingException;
 
 public class EnvApiKeyProvider implements
         ApiKeyProvider {

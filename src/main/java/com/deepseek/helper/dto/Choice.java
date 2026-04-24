@@ -1,4 +1,4 @@
-package com.deepseek.helper.service.dto;
+package com.deepseek.helper.dto;
 
 import lombok.Data;
 

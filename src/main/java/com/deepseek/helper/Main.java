@@ -1,10 +1,11 @@
-package com.deepseek.helper.service;
+package com.deepseek.helper;
 
-import com.deepseek.helper.service.config.ApiKeyProvider;
-import com.deepseek.helper.service.config.EnvApiKeyProvider;
-import com.deepseek.helper.service.exceptions.DeepSeekException;
-import com.deepseek.helper.service.service.AIService;
-import com.deepseek.helper.service.service.DeepSeekAIService;
+import com.deepseek.helper.config.ApiKeyProvider;
+import com.deepseek.helper.config.EnvApiKeyProvider;
+import com.deepseek.helper.exceptions.DeepSeekException;
+import com.deepseek.helper.service.AIService;
+import com.deepseek.helper.service.DeepSeekAIService;
+import com.deepseek.helper.service.OllamaAIService;
 
 public class Main {
 
@@ -16,8 +17,11 @@ public class Main {
 
         String prompt = String.join(" ", args);
 
-        ApiKeyProvider apiKeyProvider = new EnvApiKeyProvider();
-        AIService aiService = new DeepSeekAIService(apiKeyProvider);
+//        ApiKeyProvider apiKeyProvider = new EnvApiKeyProvider();
+//        AIService aiService = new DeepSeekAIService(apiKeyProvider);
+
+        AIService aiService = new OllamaAIService();
+
 
         try {
             String response = aiService.sendPrompt(prompt);

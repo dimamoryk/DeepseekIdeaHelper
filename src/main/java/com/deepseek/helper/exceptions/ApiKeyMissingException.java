@@ -1,4 +1,4 @@
-package com.deepseek.helper.service.exceptions;
+package com.deepseek.helper.exceptions;
 
 public class ApiKeyMissingException extends
         DeepSeekException {

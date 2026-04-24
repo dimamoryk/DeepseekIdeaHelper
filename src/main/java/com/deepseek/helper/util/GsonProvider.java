@@ -1,4 +1,4 @@
-package com.deepseek.helper.service.util;
+package com.deepseek.helper.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

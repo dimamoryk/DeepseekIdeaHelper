@@ -1,10 +1,13 @@
-package com.deepseek.helper.service;
+package com.deepseek.helper;
 
 import com.deepseek.helper.config.ApiKeyProvider;
 import com.deepseek.helper.dto.ChatRequest;
 import com.deepseek.helper.dto.Message;
 import com.google.gson.Gson;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class DeepSeekAIServiceTest {

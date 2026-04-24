@@ -1,12 +1,12 @@
-package com.deepseek.helper.service.service;
+package com.deepseek.helper.service;
 
-import com.deepseek.helper.service.config.ApiKeyProvider;
-import com.deepseek.helper.service.dto.ChatRequest;
-import com.deepseek.helper.service.dto.ChatResponse;
-import com.deepseek.helper.service.dto.Message;
-import com.deepseek.helper.service.exceptions.ApiCommunicationException;
-import com.deepseek.helper.service.exceptions.ApiResponseParseException;
-import com.deepseek.helper.service.exceptions.ApiServerErrorException;
+import com.deepseek.helper.config.ApiKeyProvider;
+import com.deepseek.helper.dto.ChatRequest;
+import com.deepseek.helper.dto.ChatResponse;
+import com.deepseek.helper.dto.Message;
+import com.deepseek.helper.exceptions.ApiCommunicationException;
+import com.deepseek.helper.exceptions.ApiResponseParseException;
+import com.deepseek.helper.exceptions.ApiServerErrorException;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import okhttp3.*;

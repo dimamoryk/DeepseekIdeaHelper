@@ -1,4 +1,4 @@
-package com.deepseek.helper.service.config;
+package com.deepseek.helper.config;
 /**
  * Провайдер API-ключа для DeepSeek.
  * Разные реализации могут читать ключ из env, файла, системы аутентификации.
